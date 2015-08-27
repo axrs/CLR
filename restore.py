@@ -1,6 +1,7 @@
 import os
+import shutil
 
-baseDir = "/Volumes/BACKUPS/rsnapshot/hourly.4/fs/Volumes"
+baseDir = "/Volumes/restore"
 
 restoreList = os.curdir + "/encryptionPurge.txt"
 
@@ -13,8 +14,9 @@ if os.path.exists(restoreList):
 
     # Delete each file
     for l in lines:
-        fileToRestore = baseDir + l[1:]
-        if os.path.exists(fileToRestore):
-            print "Restore File: ", fileToRestore
-        else:
+        fileToRestore = baseDir + l[6:-10]
+        if not os.path.exists(fileToRestore):
             print "Can't Find File: ", fileToRestore
+	else:
+	    print "/Volumes" + l[1:-10]
+	    shutil.copy2(fileToRestore, "/Volumes/" +  l[1:-10])
