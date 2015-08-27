@@ -1,0 +1,7 @@
+./DATA/data/Programs/PortableApps/h2benchw.zip.encrypted
+./DATA/data/Programs/PortableApps/xampp-win32-1.6.0a.zip.encrypted
+./DATA/data/Programs/PortableApps/Firefox Extensions/SQLiteManager_0.2.40.xpi.encrypted
+./DATA/data/Programs/PortableApps/Firefox Extensions/sage-1.3.10-fx.xpi.encrypted
+./DATA/data/Programs/PortableApps/Firefox Extensions/noscript-1.9.6.5.xpi.encrypted
+./DATA/data/Programs/PortableApps/Firefox Extensions/lightning-0.3.1-tb-windows.xpi.encrypted
+./DATA/data/Programs/PortableApps/Firefox Extensions/fireftp-0.95.2-fx.xpi.encrypted
