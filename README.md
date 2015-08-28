@@ -7,6 +7,6 @@ A few simple python scripts to:
 * Delete files encrypted by CryptoLocker
 * Restore files encrypted by CryptoLocker from a backup source
 
-*Use UNIX/Linux `find` command to discover the `*.encrypted` and `HOW_TO_RECOVER.*` files.*
+*Use UNIX/Linux `find` command to discover the `.encrypted` and `HOW_TO_RECOVER` files.*
 
 
