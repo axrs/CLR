@@ -7,12 +7,12 @@ restoreList = os.curdir + "/encryptionPurge.txt"
 
 if os.path.exists(restoreList):
     lines = []
-    # Read the files to be purged
+    # Read the files to be restored
     with open(restoreList) as f:
         lines = f.readlines()
         lines = [line.rstrip('\n') for line in open(restoreList)]
 
-    # Delete each file
+    # Restore each file
     for l in lines:
         fileToRestore = baseDir + l[6:-10]
         if not os.path.exists(fileToRestore):
